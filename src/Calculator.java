@@ -9,7 +9,8 @@ public class Calculator {
     BinaryOperator<Integer> devide = (x, y) -> x / y;
 
     UnaryOperator<Integer> pow = x -> x * x;
-    public int abs(int x){
+
+    public int abs(int x) {
         return Math.abs(x);
     }
 
